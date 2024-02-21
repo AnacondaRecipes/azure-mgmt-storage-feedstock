@@ -28,7 +28,10 @@ test:
     - azure
     - azure.mgmt
     - azure.mgmt.storage
+  requires:
+    - pip
   commands:
+    - pip check
     - python -m unittest discover -p "test_storage_*.py"
 
 about:
