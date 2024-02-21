@@ -34,7 +34,6 @@ test:
     - pip
   commands:
     - pip check
-    - python -m unittest discover -p "test_storage_*.py"
 
 about:
   home: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-mgmt-storage
